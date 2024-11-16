@@ -1,0 +1,48 @@
+name: rampage_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  reveal_on_scroll: ^0.0.3
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  url_launcher: ^6.0.0-nullsafety
+  audioplayers: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - graphics/
+    - assets/
+  fonts:
+    - family: Alkatra
+      fonts:
+        - asset: lib/fonts/Alkatra-Regular.ttf
+        - asset: lib/fonts/Alkatra-Bold.ttf
+          weight: 700
+    - family: DeliciousHandrawn
+      fonts:
+        - asset: lib/fonts/DeliciousHandrawn-Regular.ttf
+    - family: Dosis
+      fonts:
+        - asset: lib/fonts/Dosis-Regular.ttf
+        - asset: lib/fonts/Dosis-Bold.ttf
+          weight: 700
+    - family: ShadowsIntoLight
+      fonts: 
+        - asset: lib/fonts/ShadowsIntoLight-Regular.ttf
